@@ -37,7 +37,7 @@ button {
 
 #yes:hover {
     background-color: #d90429;
-    transform: scale(20.20);
+    transform: scale(5.0);
     transition: 0.3s ease-in-out;
 }
 
