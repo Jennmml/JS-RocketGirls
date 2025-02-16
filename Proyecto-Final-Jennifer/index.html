@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final Jennifer</title>
+    <title>My Personal Library</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <div class="animated zoomIn">
+            <h2>My Personal Library</h2>
+        </div>
+        <form id="book-form">
+            <input type="text" id="book-title" placeholder="Book Title" required>
+            <input type="text" id="book-review" placeholder="Your Review" required>
+            <input type="file" id="book-image" accept="image/*">
+            <button type="submit" class="add">Add Book</button>
+        </form>
+        <div id="book-list" class="book-list"></div>
+    </div>
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Edit Book</h2>
+            <input type="text" id="edit-title" placeholder="New Title">
+            <input type="text" id="edit-review" placeholder="New Review">
+            <button id="save-edit">Save</button>
+        </div>
+    </div>
     
+    <script src="script.js"></script>
 </body>
 </html>
