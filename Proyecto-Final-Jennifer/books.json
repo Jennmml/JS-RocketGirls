@@ -2,16 +2,25 @@
     {
         "title": "Crónicas de una muerte anunciada",
         "review": "Una gran historia sobre el destino inevitable.",
-        "image": "portadas/cronicas.jpeg"
+        "image": "portadas/cronicas.jpeg",
+        "author": "Gabriel García Márquez",
+        "genre": "Novela",
+        "year": 1981
     },
     {
         "title": "Trenza del mar esmeralda",
         "review": "Una historia épica llena de misterio y belleza.",
-        "image": "portadas/trenza.jpg"
+        "image": "portadas/trenza.jpg",
+        "author": "Brandon Sanderson",
+        "genre": "Fantasía",
+        "year": 2022
     },
     {
         "title": "Metamorfosis",
         "review": "Una reflexión profunda sobre la alienación humana.",
-        "image": "portadas/metamorfosis.jpg"
+        "image": "portadas/metamorfosis.jpg",
+        "author": "Franz Kafka",
+        "genre": "Ficción",
+        "year": 1915
     }
 ]
