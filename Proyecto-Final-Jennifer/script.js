@@ -21,6 +21,7 @@ bookForm.addEventListener('submit', function (event) {
     const bookCard = document.createElement('div');
     bookCard.classList.add('book-card');
 
+    //IMPORTANTE
     const bookImage = document.createElement('img');
     if (imageInput.files.length > 0) {
         const reader = new FileReader();
