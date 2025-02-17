@@ -40,10 +40,21 @@ button {
 }
 
 button.add {
+    background-color: #4ec156;
+    color: white;
+    padding: 8px 18px;
+    font-size: 13px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+button.butttom {
     background-color: #6cd473;
     color: white;
     padding: 8px 18px;
-    font-size: 16px;
+    font-size: 13px;
     margin: 20px;
     border: none;
     cursor: pointer;
@@ -52,6 +63,10 @@ button.add {
 
 button.add:hover {
     transform: scale(1.1);
+}
+
+button.butttom:hover {
+    transform: scale(1.2);
 }
 
 .book-list {

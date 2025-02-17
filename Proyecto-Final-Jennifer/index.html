@@ -11,15 +11,18 @@
         <div class="animated zoomIn">
             <h2>My Personal Library</h2>
         </div>
-        <form id="book-form">
+        <button id="toggle-form" class="butttom">Add a New Book</button>
+
+        <form id="book-form" style="display: none;">
             <input type="text" id="book-title" placeholder="Book Title" required>
             <input type="text" id="book-author" placeholder="Author" required>
             <input type="text" id="book-genre" placeholder="Genre" required>
             <input type="text" id="book-year" placeholder="Year" required>
             <input type="text" id="book-review" placeholder="Your Review" required>
             <input type="file" id="book-image" accept="image/*">
-            <button type="submit" class="add">Add Book</button>
+            <button type="submit" class="add">Save</button>
         </form>
+
         <div id="book-list" class="book-list"></div>
     </div>
     <div id="edit-modal" class="modal">
@@ -34,7 +37,6 @@
             <button id="save-edit">Save</button>
         </div>
     </div>
-    
     <script src="script.js"></script>
 </body>
 </html>

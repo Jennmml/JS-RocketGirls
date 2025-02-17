@@ -1,26 +1,26 @@
 [
     {
-        "title": "Crónicas de una muerte anunciada",
-        "review": "Una gran historia sobre el destino inevitable.",
+        "title": "Chronicle of a Death Foretold",
+        "review": "The book from the very beginning immerses you in wanting to know how Santiago died.",
         "image": "portadas/cronicas.jpeg",
         "author": "Gabriel García Márquez",
-        "genre": "Novela",
+        "genre": "Novel",
         "year": 1981
     },
     {
-        "title": "Trenza del mar esmeralda",
-        "review": "Una historia épica llena de misterio y belleza.",
+        "title": "Tress of the Emerald Sea",
+        "review": "A story of innocent love in which Trenza does the impossible to find her friend Charlie.",
         "image": "portadas/trenza.jpg",
         "author": "Brandon Sanderson",
-        "genre": "Fantasía",
+        "genre": "Fantasy",
         "year": 2022
     },
     {
-        "title": "Metamorfosis",
-        "review": "Una reflexión profunda sobre la alienación humana.",
+        "title": "Metamorphosis",
+        "review": "A profound reflection on human alienation, the saddest part is that when he woke up transformed into a cockroach, his only concern was that he couldn't go to work...",
         "image": "portadas/metamorfosis.jpg",
         "author": "Franz Kafka",
-        "genre": "Ficción",
+        "genre": "Fiction",
         "year": 1915
     }
 ]
