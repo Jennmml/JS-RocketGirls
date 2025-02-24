@@ -28,6 +28,7 @@ document.getElementById("toggle-form").addEventListener("click", function () {
  * Después de agregar el libro, el formulario se restablece y oculta.
  * No tiene valor de retorno.
  */
+//para agregar un libro nuevo con imagen
 bookForm.addEventListener('submit', function (event) {
     event.preventDefault();
 
@@ -46,6 +47,8 @@ bookForm.addEventListener('submit', function (event) {
     //IMPORTANTE
     const bookImage = document.createElement('img');
     if (imageInput.files.length > 0) {
+        //para leer el contenido del archivo de forma asíncrona. 
+        // Esto es clave para convertir la información del archivo en una URL
         const reader = new FileReader();
         reader.onload = function (e) {
             bookImage.src = e.target.result;
@@ -74,6 +77,7 @@ bookForm.addEventListener('submit', function (event) {
     const buttonContainer = document.createElement('div');
     buttonContainer.classList.add('button-container');
 
+    //editar, llama a a la funcion 
     const editButton = document.createElement('button');
     editButton.classList.add('edit');
     editButton.textContent = 'Edit';
